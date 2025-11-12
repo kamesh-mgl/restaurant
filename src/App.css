@@ -341,6 +341,106 @@ button.add-btn:hover {
 }
 
 
+/* ----------------------Mobile responsiveness---------------------- */
+
+/* ------------------- Mobile Responsive ------------------- */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .anchor {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  /* Hero Section */
+  .banner {
+    width: 95%;
+    height: auto;
+    padding: 25px 15px;
+  }
+
+  .banner > h1 {
+    font-size: 40px;
+  }
+
+  #hero-p {
+    font-size: 15px;
+    width: 95%;
+  }
+
+  /* Menu Section */
+  .item-cards {
+    grid-template-columns: 1fr 1fr;
+    position: static;
+    padding-top: 80px;
+  }
+
+  .menu-card {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .container-menu > .filter {
+    position: static;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  select {
+    width: 80%;
+  }
+
+  /* Add Items Form */
+  .form-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 20px;
+  }
+
+  textarea {
+    grid-column: span 1;
+  }
+
+  button.add-btn {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+/* For very small screens (phones < 480px) */
+@media (max-width: 480px) {
+  .banner > h1 {
+    font-size: 32px;
+  }
+
+  .item-cards {
+    grid-template-columns: 1fr;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  #additems h1 {
+    font-size: 1.4rem;
+  }
+}
+
+
+
 
 
 
