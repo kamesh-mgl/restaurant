@@ -39,7 +39,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Crispy, spicy deep-fried chicken bites garnished with curry leaves and green chilies.",
-            img: "src/assets/images/chicken 65.jpg"
+            img: "src/assets/images/chicken 65.webp"
         },
         {
             id: 4,
@@ -57,7 +57,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Succulent prawns tossed in buttery garlic sauce with a hint of herbs and lemon.",
-            img: "src/assets/images/butter garlic prawns.jpg"
+            img: "src/assets/images/butter garlic prawn.jpeg"
         },
         {
             id: 6,
@@ -93,7 +93,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Fresh fish simmered in a tangy coconut and tamarind-based curry with South Indian spices.",
-            img: "src/assets/images/fish curry.jpg"
+            img: "src/assets/images/fish curry.webp"
         },
         {
             id: 10,
@@ -111,7 +111,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Whole chicken marinated in yogurt and spices, roasted in a clay oven for rich flavor.",
-            img: "src/assets/images/tandoori chicken.jpg"
+            img: "src/assets/images/tandoori chicken.avif"
         },
         {
             id: 12,
