@@ -10,29 +10,6 @@ import { createContext } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
-import muttonRoganJosh from "../assets/images/mutton rogan josh.jpg";
-import palakPaneer from "../assets/images/Palak-Paneer.jpg";
-import chicken65 from "../assets/images/chicken 65.webp";
-import paneerTikka from "../assets/images/paneer tikka.jpeg";
-import butterGarlicPrawn from "../assets/images/butter garlic prawn.jpeg";
-import gulabJamun from "../assets/images/gulab jamun.webp";
-import chickenKebab from "../assets/images/chicken kebab.jpg";
-import masalaDosa from "../assets/images/masala dosa.jpg";
-import fishCurry from "../assets/images/fish curry.webp";
-import choleBhature from "../assets/images/chole bhature.jpg";
-import tandooriChicken from "../assets/images/tandoori chicken.avif";
-import chickenBiryani from "../assets/images/chicken briyani.webp";
-import tandooriRoti from "../assets/images/tandoori roti.jpg";
-import butterChicken from "../assets/images/butterchicken.jpg";
-import grilledChicken from "../assets/images/grilled chicken.jpg";
-import mangoLassi from "../assets/images/mango lassi.jpeg";
-import eggCurry from "../assets/images/egg curry.jpg";
-import mushroomBiryani from "../assets/images/mushroom briyani.jpg";
-import chickenTikka from "../assets/images/chicken tikka.jpeg";
-import prawnCurry from "../assets/images/prawn curry.jpg";
-import muttonBiryani from "../assets/images/mutton biryani.jpg";
-
-
 export const Menucontext = createContext();
 
 export default function App() {
