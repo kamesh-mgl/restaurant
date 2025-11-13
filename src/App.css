@@ -340,6 +340,13 @@ button.add-btn:hover {
   transform: scale(1.05);
 }
 
+.active {
+  background-color: #f9f5ef;
+  color: #8b0000;
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
 
 /* ----------------------Mobile responsiveness---------------------- */
 

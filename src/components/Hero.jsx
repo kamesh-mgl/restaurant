@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero()
 {
 
@@ -13,7 +15,8 @@ export default function Hero()
                       Our chefs use only the freshest ingredients to 
                     create dishes that delight your senses and make every meal memorable.</p>
             </div>
-            <a href="#menu" className="anchor">Explore Menu</a>
+            {/* <a href="#menu" className="anchor">Explore Menu</a> */}
+            <Link to="/menu" className="anchor">Explore Menu</Link>
         </div>
     )
 }

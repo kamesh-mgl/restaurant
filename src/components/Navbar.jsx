@@ -1,15 +1,35 @@
 import Menu from "./Menu"
 import Clock from './Clock.jsx';
-function Navbar()
-{
-    return(
+import { NavLink} from "react-router-dom"
+
+
+function Navbar() {
+    console.log("navbar")
+    return (
         <>
             <nav className="navbar">
-                <a href="#home" className="anchor">Home</a>
-                <a href="#menu" className="anchor">Menu</a>
-                <a href="#additems" className="anchor">Add Item</a>
-                <Clock/>
-            </nav>
+                <NavLink
+                    to="/"
+                    className={({ isActive }) => isActive ? "anchor active" : "anchor"}
+                >
+                    Home
+                </NavLink>
+
+                <NavLink
+                    to="/menu"
+                    className={({ isActive }) => isActive ? "anchor active" : "anchor"}
+                >
+                    Menu
+                </NavLink>
+
+                <NavLink
+                    to="/additems"
+                    className={({ isActive }) => isActive ? "anchor active" : "anchor"}
+                >
+                    AddItems
+                </NavLink>
+                <Clock />
+            </nav >
         </>
     )
 }

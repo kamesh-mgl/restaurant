@@ -7,6 +7,7 @@ import AddItems from './AddItems.jsx';
 import Clock from './Clock.jsx';
 import { useState } from 'react';
 import { createContext } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 export const Menucontext = createContext();
 
@@ -207,39 +208,46 @@ export default function App() {
 
     const [itemarray, setItemArray] = useState(menuItems);
 
-    function additem(newitem)
-    {
-        setItemArray((prev)=>
-        {
-            return [...prev,newitem]
+    function additem(newitem) {
+        setItemArray((prev) => {
+            return [...prev, newitem]
         })
-    } 
+    }
 
-    
+
     console.log("rendered")
 
-    const [page, setPage] = useState("home");
+    // const [page, setPage] = useState("home");
 
-    function handlehome(input) {
-        setPage(input);
-        console.log(input)
-    }
+    // function handlehome(input) {
+    //     setPage(input);
+    //     console.log(input)
+    // }
 
-    function display() {
-        if (page === "home") return <Hero />
-        else if (page === "menu") return <Menu />
-        else if (page === "additems") return <AddItems />
-    }
+    // function display() {
+    //     if (page === "home") return <Hero />
+    //     else if (page === "menu") return <Menu />
+    //     else if (page === "additems") return <AddItems />
+    // }
     return (
-        <Menucontext.Provider value={{itemarray,additem}}> 
-            <nav className="navbar">
+        <Menucontext.Provider value={{ itemarray, additem }}>
+
+            <BrowserRouter>
+                <Navbar />
+                <Routes>
+                    <Route path='/' element={<Hero />} />
+                    <Route path='/menu' element={<Menu />} />
+                    <Route path='/additems' element={<AddItems />} />
+                </Routes>
+            </BrowserRouter>
+        </Menucontext.Provider>
+    );
+}
+
+{/* <nav className="navbar">
                 <a onClick={() => handlehome("home")} href="#home" className="anchor">Home</a>
                 <a onClick={() => handlehome("menu")} href="#menu" className="anchor">Menu</a>
                 <a onClick={() => handlehome("additems")} href="#additems" className="anchor">Add Item</a>
                 <Clock />
-            </nav>
-            {/* <Navbar /> */}
-            {display()}
-        </Menucontext.Provider>
-    );
-}
+            </nav> */}
+{/* {display()} */ }
