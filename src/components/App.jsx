@@ -23,7 +23,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Tender mutton pieces slow-cooked in rich Kashmiri gravy infused with aromatic spices.",
-            img: "/images/mutton rogan josh.jpg"
+            img: "/images/mutton rogan.JPG"
         },
         {
             id: 2,
