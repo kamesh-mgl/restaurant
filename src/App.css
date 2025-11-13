@@ -444,6 +444,16 @@ button.add-btn:hover {
   #additems h1 {
     font-size: 1.4rem;
   }
+  #additems{
+    width: 88%;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    height: auto;
+  }
 }
 
 
