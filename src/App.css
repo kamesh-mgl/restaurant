@@ -351,80 +351,42 @@ button.add-btn:hover {
 /* ----------------------Mobile responsiveness---------------------- */
 
 /* ------------------- Mobile Responsive ------------------- */
-/* 🌐 Responsive Design */
+@media (max-width: 768px) {
 
-/* Tablets and smaller laptops */
-@media (max-width: 1024px) {
+  /* Navbar */
   .navbar {
     flex-wrap: wrap;
     gap: 20px;
-    padding: 12px 20px;
+    height: auto;
+    padding: 10px;
   }
 
   .anchor {
-    font-size: 16px;
-    padding: 8px 12px;
-  }
-
-  .banner {
-    width: 90%;
-    padding: 40px 20px;
-    text-align: center;
-  }
-
-  .banner > h1 {
-    font-size: 50px;
-    line-height: 1.2;
-  }
-
-  #hero-p {
-    font-size: 18px;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .item-cards {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 80px 20px 40px;
-  }
-}
-
-/* Tablets (portrait) and large phones */
-@media (max-width: 768px) {
-  /* Navbar */
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-  }
-
-  .anchor {
-    font-size: 15px;
-    padding: 8px 14px;
+    font-size: 14px;
+    padding: 6px 10px;
   }
 
   /* Hero Section */
   .banner {
     width: 95%;
-    padding: 30px 15px;
+    height: auto;
+    padding: 25px 15px;
   }
 
   .banner > h1 {
-    font-size: 38px;
+    font-size: 40px;
   }
 
   #hero-p {
-    font-size: 16px;
-    width: 90%;
+    font-size: 15px;
+    width: 95%;
   }
 
   /* Menu Section */
   .item-cards {
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    padding: 60px 10px;
+    position: static;
+    padding-top: 80px;
   }
 
   .menu-card {
@@ -433,56 +395,45 @@ button.add-btn:hover {
   }
 
   .container-menu > .filter {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
     position: static;
-    padding: 10px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
-  input,
+  input {
+    width: 80%;
+  }
+
   select {
-    width: 85%;
+    width: 80%;
   }
 
   /* Add Items Form */
   .form-container {
     grid-template-columns: 1fr;
-    width: 95%;
-    padding: 25px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
   }
 
   textarea {
-    grid-column: 1 / 2;
-    width: 100%;
+    grid-column: span 1;
   }
 
   button.add-btn {
-    grid-column: 1 / 2;
-    justify-self: center;
-    margin-top: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 }
 
-/* Small phones (< 480px) */
+/* For very small screens (phones < 480px) */
 @media (max-width: 480px) {
-  .banner {
-    padding: 20px 10px;
-  }
-
   .banner > h1 {
-    font-size: 30px;
-  }
-
-  #hero-p {
-    font-size: 14px;
+    font-size: 32px;
   }
 
   .item-cards {
     grid-template-columns: 1fr;
-    gap: 14px;
-    padding: 40px 10px;
   }
 
   input,
@@ -490,21 +441,10 @@ button.add-btn:hover {
     width: 100%;
   }
 
-  .menu-card {
-    margin: 0 auto;
-  }
-
   #additems h1 {
-    font-size: 1.3rem;
-    text-align: center;
-  }
-
-  .add-btn {
-    font-size: 14px;
-    padding: 8px 20px;
+    font-size: 1.4rem;
   }
 }
-
 
 
 
