@@ -23,7 +23,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Tender mutton pieces slow-cooked in rich Kashmiri gravy infused with aromatic spices.",
-            img: "/images/mutton-rogan-josh.jpg"
+            img: "/images/mutton rogan josh.jpg"
         },
         {
             id: 2,
@@ -32,7 +32,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Creamy spinach gravy with cubes of paneer, perfectly balanced with mild spices.",
-            img: "/images/palak-paneer.jpg"
+            img: "/images/palak paneer.jpg"
         },
         {
             id: 3,
@@ -41,7 +41,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Crispy, spicy deep-fried chicken bites garnished with curry leaves and green chilies.",
-            img: "/images/chicken-65.webp"
+            img: "/images/chicken 65.webp"
         },
         {
             id: 4,
@@ -50,7 +50,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Chunks of cottage cheese marinated in spiced yogurt and grilled to perfection.",
-            img: "/images/paneer-tikka.jpeg"
+            img: "/images/paneer tikka.jpeg"
         },
         {
             id: 5,
@@ -59,7 +59,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Succulent prawns tossed in buttery garlic sauce with a hint of herbs and lemon.",
-            img: "/images/butter-garlic-prawn.jpeg"
+            img: "/images/butter garlic prawn.jpeg"
         },
         {
             id: 6,
@@ -68,7 +68,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Soft milk dumplings soaked in warm, sweet syrup — a perfect Indian dessert.",
-            img: "/images/gulab-jamun.webp"
+            img: "/images/gulab jamun.webp"
         },
         {
             id: 7,
@@ -77,7 +77,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Spiced minced chicken skewered and grilled over charcoal for a smoky flavor.",
-            img: "/images/chicken-kebab.jpg"
+            img: "/images/chicken kebab.jpg"
         },
         {
             id: 8,
@@ -86,7 +86,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Crispy dosa stuffed with spicy potato filling, served with chutney and sambar.",
-            img: "/images/masala-dosa.jpg"
+            img: "/images/masala dosa.jpg"
         },
         {
             id: 9,
@@ -95,7 +95,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Fresh fish simmered in a tangy coconut and tamarind-based curry with South Indian spices.",
-            img: "/images/fish-curry.webp"
+            img: "/images/fish curry.webp"
         },
         {
             id: 10,
@@ -104,7 +104,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Spicy chickpea curry served with deep-fried, fluffy bhature — a North Indian classic.",
-            img: "/images/chole-bhature.jpg"
+            img: "/images/chole bhature.jpg"
         },
         {
             id: 11,
@@ -113,7 +113,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Whole chicken marinated in yogurt and spices, roasted in a clay oven for rich flavor.",
-            img: "/images/tandoori-chicken.avif"
+            img: "/images/tandoori chicken.avif"
         },
         {
             id: 12,
@@ -122,7 +122,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Aromatic basmati rice layered with flavorful chicken and signature spices.",
-            img: "/images/chicken-biryani.webp"
+            img: "/images/chicken biryani.webp"
         },
         {
             id: 13,
@@ -131,7 +131,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Traditional whole wheat bread baked in a clay oven for an authentic flavor.",
-            img: "/images/tandoori-roti.jpg"
+            img: "/images/tandoori roti.jpg"
         },
         {
             id: 14,
@@ -140,7 +140,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Tender chicken simmered in a rich, creamy tomato gravy with aromatic spices.",
-            img: "/images/butter-chicken.jpg"
+            img: "/images/butter chicken.jpg"
         },
         {
             id: 15,
@@ -149,7 +149,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Juicy chicken marinated with herbs and spices, grilled to smoky perfection.",
-            img: "/images/grilled-chicken.jpg"
+            img: "/images/grilled chicken.jpg"
         },
         {
             id: 16,
@@ -158,7 +158,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Refreshing yogurt-based drink blended with ripe mangoes — smooth and creamy.",
-            img: "/images/mango-lassi.jpeg"
+            img: "/images/mango lassi.jpeg"
         },
         {
             id: 17,
@@ -167,7 +167,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Boiled eggs cooked in a flavorful tomato-onion gravy with Indian spices.",
-            img: "/images/egg-curry.jpg"
+            img: "/images/egg curry.jpg"
         },
         {
             id: 18,
@@ -176,7 +176,7 @@ export default function App() {
             type: "Veg",
             description:
                 "Fragrant basmati rice cooked with garden-fresh mushrooms, vegetables, and exotic spices.",
-            img: "/images/mushroom-biryani.jpg"
+            img: "/images/mushroom biryani.jpg"
         },
         {
             id: 19,
@@ -185,7 +185,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Boneless chicken marinated in spiced yogurt and grilled in a traditional tandoor.",
-            img: "/images/chicken-tikka.jpeg"
+            img: "/images/chicken tikka.jpeg"
         },
         {
             id: 20,
@@ -194,7 +194,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Juicy prawns cooked in a spicy coconut-based curry bursting with coastal flavors.",
-            img: "/images/prawn-curry.jpg"
+            img: "/images/prawn curry.jpg"
         },
         {
             id: 21,
@@ -203,7 +203,7 @@ export default function App() {
             type: "Non-Veg",
             description:
                 "Fragrant basmati rice layered with succulent mutton pieces and aromatic spices.",
-            img: "/images/mutton-biryani.jpg"
+            img: "/images/mutton biryani.jpg"
         }
     ];
 
