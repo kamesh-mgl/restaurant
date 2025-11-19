@@ -350,7 +350,7 @@ button.add-btn:hover {
 
 /* ----------------------Mobile responsiveness---------------------- */
 
-/* ------------------- Mobile Responsive ------------------- */
+
 @media (max-width: 768px) {
 
   /* Navbar */
@@ -364,6 +364,8 @@ button.add-btn:hover {
   .anchor {
     font-size: 14px;
     padding: 6px 10px;
+    background-color: #8b0000;
+    color: white;
   }
 
   /* Hero Section */
@@ -372,9 +374,7 @@ button.add-btn:hover {
     height: auto;
     padding: 25px 15px;
   }
-  .anchor{
-    background-color: #8b0000;
-  }
+  
 
   .banner > h1 {
     font-size: 40px;
